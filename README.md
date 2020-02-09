@@ -30,6 +30,9 @@ Following colors are defined for the background and forground color
 |white|
 
 
+## ecolor
+color &lt;text&gt; &lt;foregroundcolor&gt; [&lt;backgroundcolor&gt;]
+
 
 # how to use color.sh in script
 ```
