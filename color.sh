@@ -2,6 +2,13 @@
 function color() {
 	fn_ChangeColor "$1" "$2"
 }
+function ecolor() {
+	# print the $1 in colors $2 and $3
+	# reset color options after printing $1 
+	color "$2" "$3"
+	echo "$1"
+	color "reset"
+}
 function fn_ChangeColor() {
 	# Parse the argument 1 for the foreground color
 	fg=-1
